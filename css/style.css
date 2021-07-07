@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.float-rt {
+    float: right;
+}
+
+.float-lt {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+nav.vertical ul li {
+    display: block;
+}
+
+nav.horizontal ul li {
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo > a {
+    color: #00B5AD;
+    font-size: xx-large;
+    font-family: 楷体
+}
+
+.wrap {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    background: #FFF;
+}
+
+.header {
+    padding: 20px 0px 0px 0px;
+}
+
+.top-nav {
+    background: #1B1C1D;
+    margin: 20px 0 17px 0px;
+    border-radius: 0.3em;
+}
+
+.main {
+    padding-bottom: 50px;
+}
+
+.content {
+    float: left;
+}
+
+.top-nav {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.top-nav ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+.top-nav ul > li {
+    float: left;
+    padding: 0px 40px 0px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    display: inline-block
+}
+
+.top-nav ul > li > a {
+    color: rgba(255, 255, 255, .7) !important;
+}
+
+.top-nav ul > li > a:hover {
+    color: #F67282;
+}
+
+.Latest-news {
+    width: 220px;
+}
+
+.category {
+    float: left;
+    width: 180px;
+    height: 550px;
+    background-color: #F3F4F5;
+}
+
+.category ul {
+    margin-left: 42px;
+}
+
+.category ul > li {
+    height: 40px;
+    line-height: 40px;
+}
+
+.category ul > li > a {
+    font-weight: 400;
+    color: rgba(0, 0, 0, .87);
+}
+
+.category > .ctit {
+    padding: 5px 5px 5px 5px;
+    border-bottom: 2px solid #00B5AD;
+}
+
+.l {
+    float: right;
+    margin-left: 23px;
+}
+
+.title {
+    float: left;
+    width: 720px;
+}
+
+.tit {
+    line-height: 40px;
+    font-size: 1.28rem
+}
+.tit>a{
+    color:#000000;
+}
+.tit>a:hover{
+    color:#00B5AD;
+}
+
+.desc {
+    line-height: 40px;
+    border-bottom: 1px solid rgba(34, 36, 38, .15);
+}
+
+.img {
+    float: right;
+    width: 170px;
+    margin-left: 20px;
+    border-radius: 10px;
+    max-height:30px;
+}
+
+.img > img {
+    border-radius: 3px;
+}
+
+/*底部*/
+
+.foot {
+    padding: 10px 30px;
+}
+
+.foot > div {
+    height: 100px;
+    background-color: black;
+    color: #FFFFFF;
+    margin: 0 auto;
+    line-height: 100px;
+    text-align: center;
+}
+
+/*内容*/
+.content-tit{
+    text-align: center;
+    font-size: 1.28rem;
+}
+.content-desc{
+    line-height: 40px;
+}

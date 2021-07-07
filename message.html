@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>留言</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+        <div class="logo">
+            <a>个人主页</a>
+        </div>
+        <div class="clear"></div>
+        <div class="top-nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">关于</a></li>
+                <li><a href="message.html">留言</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="content">
+            <br>
+            <div class="clear"></div>
+            <span class="Latest-news">
+                <div class="category">
+                    <div class="ctit">分类</div>
+                    <ul>
+                        <li><a href="campus.html">校园</a></li>
+                        <li><a href="game.html">游戏</a></li>
+                        <li><a href="music.html">音乐</a></li>
+                    </ul>
+                </div>
+                <div class="l">
+                    <form method="post" action="#" omsubmit='return jump()'>
+                    <div style="float:right;margin-left:80px;width:570px;">
+                        <p style="text-align: center;">留言内容</p>
+
+                        <p style="line-height: 40px;width:800px;">
+                            <span style="width:50px;">姓&nbsp;&nbsp;名：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span><input
+                                type="text" style="width:350px;" name="name"/></span>
+                        </p>
+                    <p style="line-height: 40px;width:800px;">
+                            <span style="width:50px;">性&nbsp;&nbsp;别：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span><input
+                            type="radio" name="sex" value="1"/>男<input type="radio" name="sex" value="2"/>女</span>
+                        </p>
+                    <p style="line-height: 40px;width:800px;">
+                            <span style="width:50px;">出生时间：</span><span>
+                            <select name="borth_year"><option>2010</option>
+                            <option>2009</option>
+                            <option>2008</option>
+                            <option>2007</option>
+                            <option>2006</option>
+                            <option>2005</option>
+                            <option>2004</option>
+                            <option>2003</option>
+                            <option>2002</option>
+                            <option>2001</option>
+                            <option>2000</option>
+                            <option>1999</option>
+                            <option>1998</option>
+                            <option>1997</option>
+                            <option>1996</option>
+                            <option>1995</option>
+                            <option>1994</option>
+                            <option>1993</option>
+                            <option>1992</option>
+                            <option>1991</option>
+                            <option>1990</option>
+                            <option>1989</option>
+                            <option>1988</option>
+                            <option>1987</option>
+                            </select>
+                            <select name="borth_month">
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                                <option>05</option>
+                                <option>06</option>
+                                <option>07</option>
+                                <option>08</option>
+                                <option>09</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select></span>
+                        </p>
+                    <p style="line-height: 40px;width:800px;">
+                            <span style="width:50px;">爱&nbsp;&nbsp;好：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span><input type="checkbox" name="hobby[]" value="1"/>美食<input type="checkbox" name="hobby[]"
+                                                                                        value="2"/>音乐<input
+                                type="checkbox" name="hobby[]" value="3"/>游戏<input type="checkbox" name="hobby[]"
+                                                                                   value="4"/>其它</span>
+                        </p>
+                    <p style="line-height: 40px;width:800px;">
+                            <span style="width:50px;">留言内容：</span><span><textarea style="width:400px;height:200px;"
+                                                                                  name="content"></textarea></span>
+                        </p>
+
+                    <p style="line-height: 40px;width:800px;">
+                        <input type="submit" value="提交" name="submit"/>&nbsp;&nbsp;<input type="button" value="重置"/>
+                    </p>
+                </div>
+                </form>
+                </div>
+
+            </span>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+</div>
+<footer class="foot">
+    <div>
+        Copyright © 2021 - 2022 个人主页 Designed by 个人主页
+    </div>
+</footer>
+</body>
+</html>
+
+<script>
+    function jump() {
+        alert('留言成功');
+        return false;
+    }
+</script>
